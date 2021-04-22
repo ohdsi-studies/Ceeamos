@@ -14,6 +14,3 @@ Cohort Diagnostics & Population Level Estimation Packages
 - Study end date:
 - Protocol: ** **
 - Publications: ** **
-- Results explorer:
-  -  Shiny App: **Cohort Diagnostics**
-  -  Shiny App: **PLE Results** 
