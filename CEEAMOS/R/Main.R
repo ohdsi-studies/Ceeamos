@@ -1,4 +1,4 @@
-# Copyright 2020 Observational Health Data Sciences and Informatics
+# Copyright 2021 Observational Health Data Sciences and Informatics
 #
 # This file is part of CEEAMOS
 #
@@ -34,8 +34,11 @@
 #' @param cohortTable          The name of the table that will be created in the work database schema.
 #'                             This table will hold the exposure and outcome cohorts used in this
 #'                             study.
-#' @param oracleTempSchema     Should be used in Oracle to specify a schema where the user has write
-#'                             priviliges for storing temporary tables.
+#' @param oracleTempSchema    DEPRECATED: use `tempEmulationSchema` instead.
+#' @param tempEmulationSchema Some database platforms like Oracle and Impala do not truly support temp tables. To
+#'                            emulate temp tables, provide a schema with write privileges where temp tables
+#'                            can be created.
+#' @param verifyDependencies   Check whether correct package versions are installed?
 #' @param outputFolder         Name of local folder to place results; make sure to use forward slashes
 #'                             (/). Do not use a folder on a network drive since this greatly impacts
 #'                             performance.
@@ -74,7 +77,9 @@ execute <- function(connectionDetails,
                     cdmDatabaseSchema,
                     cohortDatabaseSchema = cdmDatabaseSchema,
                     cohortTable = "cohort",
-                    oracleTempSchema = cohortDatabaseSchema,
+                    oracleTempSchema = NULL,
+                    tempEmulationSchema = getOption("sqlRenderTempEmulationSchema"),
+                    verifyDependencies = TRUE,
                     outputFolder,
                     databaseId = "Unknown",
                     databaseName = "Unknown",
@@ -85,6 +90,10 @@ execute <- function(connectionDetails,
                     packageResults = TRUE,
                     maxCores = 4,
                     minCellCount= 5) {
+  if (!is.null(oracleTempSchema) && oracleTempSchema != "") {
+    warning("The 'oracleTempSchema' argument is deprecated. Use 'tempEmulationSchema' instead.")
+    tempEmulationSchema <- oracleTempSchema
+  }
   if (!file.exists(outputFolder))
     dir.create(outputFolder, recursive = TRUE)
 
@@ -93,18 +102,25 @@ execute <- function(connectionDetails,
   on.exit(ParallelLogger::unregisterLogger("DEFAULT_FILE_LOGGER", silent = TRUE))
   on.exit(ParallelLogger::unregisterLogger("DEFAULT_ERRORREPORT_LOGGER", silent = TRUE), add = TRUE)
   
+  if (verifyDependencies) {
+    ParallelLogger::logInfo("Checking whether correct package versions are installed")
+    verifyDependencies()
+  }
+  
   if (createCohorts) {
     ParallelLogger::logInfo("Creating exposure and outcome cohorts")
     createCohorts(connectionDetails = connectionDetails,
                   cdmDatabaseSchema = cdmDatabaseSchema,
                   cohortDatabaseSchema = cohortDatabaseSchema,
                   cohortTable = cohortTable,
-                  oracleTempSchema = oracleTempSchema,
+                  tempEmulationSchema = tempEmulationSchema,
                   outputFolder = outputFolder)
   }
   
   # Set doPositiveControlSynthesis to FALSE if you don't want to use synthetic positive controls:
-  doPositiveControlSynthesis = FALSE
+  # Start doPositiveControlSynthesis
+  doPositiveControlSynthesis <- TRUE
+  # End doPositiveControlSynthesis
   if (doPositiveControlSynthesis) {
     if (synthesizePositiveControls) {
       ParallelLogger::logInfo("Synthesizing positive controls")
@@ -112,7 +128,7 @@ execute <- function(connectionDetails,
                                  cdmDatabaseSchema = cdmDatabaseSchema,
                                  cohortDatabaseSchema = cohortDatabaseSchema,
                                  cohortTable = cohortTable,
-                                 oracleTempSchema = oracleTempSchema,
+                                 tempEmulationSchema = tempEmulationSchema,
                                  outputFolder = outputFolder,
                                  maxCores = maxCores)
     }
@@ -124,7 +140,7 @@ execute <- function(connectionDetails,
                     cdmDatabaseSchema = cdmDatabaseSchema,
                     cohortDatabaseSchema = cohortDatabaseSchema,
                     cohortTable = cohortTable,
-                    oracleTempSchema = oracleTempSchema,
+                    tempEmulationSchema = tempEmulationSchema,
                     outputFolder = outputFolder,
                     maxCores = maxCores)
   }
