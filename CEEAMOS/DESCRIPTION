@@ -1,11 +1,10 @@
-Package: CEEAMOS
+Package: CeeamosRevised
 Type: Package
-Title: Comparative Estimation of the Effects of Anti-hypertensive Medications on the Occurrence of Schizophrenia (CEEAMOS)
+Title: A Package Skeleton for Comparative Effectiveness Studies
 Version: 0.0.1
-Author: Dong Yun Lee [aut, cre]
-	Seng Chan You [aut]
-Maintainer: Dong Yun Lee <dongyun90@ajou.ac.kr>
-Description: A study package aims to estimate the potential effect between hypertension treatments on schizophrenia occurrence.
+Author: Martijn Schuemie [aut, cre]
+Maintainer: Martijn J. Schuemie <schuemie@ohdsi.org>
+Description: A skeleton package, to be used as a starting point when implementing comparative effect studies.
 Depends:
     R(>= 3.5.0),
     DatabaseConnector (>= 3.0.0)

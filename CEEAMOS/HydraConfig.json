@@ -5,11 +5,11 @@
 	"actions":[{
 		"type": "fileNameFindAndReplace",
 		"input": "packageName",
-		"find": "CEEAMOS"
+		"find": "CeeamosRevised"
 	},{
 		"type": "stringFindAndReplace",
 		"input": "packageName",
-		"find": "CEEAMOS"
+		"find": "CeeamosRevised"
 	},{
 		"type": "jsonArrayToCsv",
 		"input": "cohortDefinitions",
