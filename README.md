@@ -12,5 +12,5 @@ Cohort Diagnostics & Population Level Estimation Packages
 - Study lead forums tag: [SC You](https://forums.ohdsi.org/u/scyou/summary)
 - Study start date: **29 March 2021**
 - Study end date:
-- Protocol: ** **
+- Protocol: [protocol](https://github.com/ohdsi-studies/Ceeamos/tree/master/CEEAMOS/documents)
 - Publications: ** **
