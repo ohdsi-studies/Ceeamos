@@ -1,6 +1,6 @@
 # Copyright 2020 Observational Health Data Sciences and Informatics
 #
-# This file is part of CeeamosRevised
+# This file is part of CEEAMOS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -87,7 +87,7 @@ exportAnalyses <- function(outputFolder, exportFolder) {
   
   cmAnalysisListFile <- system.file("settings",
                                     "cmAnalysisList.json",
-                                    package = "CeeamosRevised")
+                                    package = "CEEAMOS")
   cmAnalysisList <- CohortMethod::loadCmAnalysisList(cmAnalysisListFile)
   cmAnalysisToRow <- function(cmAnalysis) {
     ParallelLogger::saveSettingsToJson(cmAnalysis, tempFileName)
@@ -125,14 +125,14 @@ exportAnalyses <- function(outputFolder, exportFolder) {
 exportExposures <- function(outputFolder, exportFolder) {
   ParallelLogger::logInfo("Exporting exposures")
   ParallelLogger::logInfo("- exposure_of_interest table")
-  pathToCsv <- system.file("settings", "TcosOfInterest.csv", package = "CeeamosRevised")
+  pathToCsv <- system.file("settings", "TcosOfInterest.csv", package = "CEEAMOS")
   tcosOfInterest <- read.csv(pathToCsv, stringsAsFactors = FALSE)
-  pathToCsv <- system.file("settings", "CohortsToCreate.csv", package = "CeeamosRevised")
+  pathToCsv <- system.file("settings", "CohortsToCreate.csv", package = "CEEAMOS")
   cohortsToCreate <- read.csv(pathToCsv)
   createExposureRow <- function(exposureId) {
     atlasName <- as.character(cohortsToCreate$atlasName[cohortsToCreate$cohortId == exposureId])
     name <- as.character(cohortsToCreate$name[cohortsToCreate$cohortId == exposureId])
-    cohortFileName <- system.file("cohorts", paste0(name, ".json"), package = "CeeamosRevised")
+    cohortFileName <- system.file("cohorts", paste0(name, ".json"), package = "CEEAMOS")
     definition <- readChar(cohortFileName, file.info(cohortFileName)$size)
     return(tibble::tibble(exposureId = exposureId,
                           exposureName = atlasName,
@@ -149,12 +149,12 @@ exportExposures <- function(outputFolder, exportFolder) {
 exportOutcomes <- function(outputFolder, exportFolder) {
   ParallelLogger::logInfo("Exporting outcomes")
   ParallelLogger::logInfo("- outcome_of_interest table")
-  pathToCsv <- system.file("settings", "CohortsToCreate.csv", package = "CeeamosRevised")
+  pathToCsv <- system.file("settings", "CohortsToCreate.csv", package = "CEEAMOS")
   cohortsToCreate <- read.csv(pathToCsv)
   createOutcomeRow <- function(outcomeId) {
     atlasName <- as.character(cohortsToCreate$atlasName[cohortsToCreate$cohortId == outcomeId])
     name <- as.character(cohortsToCreate$name[cohortsToCreate$cohortId == outcomeId])
-    cohortFileName <- system.file("cohorts", paste0(name, ".json"), package = "CeeamosRevised")
+    cohortFileName <- system.file("cohorts", paste0(name, ".json"), package = "CEEAMOS")
     definition <- readChar(cohortFileName, file.info(cohortFileName)$size)
     return(tibble::tibble(outcomeId = outcomeId,
                           outcomeName = atlasName,
@@ -169,7 +169,7 @@ exportOutcomes <- function(outputFolder, exportFolder) {
   
   
   ParallelLogger::logInfo("- negative_control_outcome table")
-  pathToCsv <- system.file("settings", "NegativeControls.csv", package = "CeeamosRevised")
+  pathToCsv <- system.file("settings", "NegativeControls.csv", package = "CEEAMOS")
   negativeControls <- read.csv(pathToCsv)
   negativeControls <- negativeControls[tolower(negativeControls$type) == "outcome", ]
   negativeControls <- negativeControls[, c("outcomeId", "outcomeName")]
@@ -181,7 +181,7 @@ exportOutcomes <- function(outputFolder, exportFolder) {
   synthesisSummaryFile <- file.path(outputFolder, "SynthesisSummary.csv")
   if (file.exists(synthesisSummaryFile)) {
     positiveControls <- read.csv(synthesisSummaryFile, stringsAsFactors = FALSE)
-    pathToCsv <- system.file("settings", "NegativeControls.csv", package = "CeeamosRevised")
+    pathToCsv <- system.file("settings", "NegativeControls.csv", package = "CEEAMOS")
     negativeControls <- read.csv(pathToCsv)
     positiveControls <- merge(positiveControls,
                               negativeControls[, c("outcomeId", "outcomeName")])
@@ -879,7 +879,7 @@ exportDiagnostics <- function(outputFolder,
     dir.create(tempFolder)
   }
   cluster <- ParallelLogger::makeCluster(min(4, maxCores))
-  ParallelLogger::clusterRequire(cluster, "CeeamosRevised")
+  ParallelLogger::clusterRequire(cluster, "CEEAMOS")
   tasks <- split(reference, seq(nrow(reference)))
   ParallelLogger::clusterApply(cluster,
                                tasks,
