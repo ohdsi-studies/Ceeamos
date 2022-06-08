@@ -1,0 +1,37 @@
+Package: OhdsiSharing
+Type: Package
+Title: Package for sharing of the results of the OHDSI tools
+Version: 0.2.2
+Date: 2020-06-18
+Authors@R: c(
+    person("Martijn", "Schuemie", , "schuemie@ohdsi.org", role = c("aut")),
+    person("Marc", "Suchard", , "msuchard@ucla.edu", role = c("aut", "cre")),
+    person("Lee", "Evans", role = c("aut"))
+    )
+Maintainer: Marc Suchard <msuchard@ucla.edu>
+Description: Package for sharing of the results of the OHDSI tools, with
+    functions for encrypting results and sending results through SFTP to a central
+    site.
+URL: https://ohdsi.github.io/OhdsiSharing,
+        https://github.com/OHDSI/OhdsiSharing
+BugReports: https://github.com/OHDSI/OhdsiSharing/issues
+Imports: rJava, ParallelLogger
+Suggests: testthat
+License: Apache License
+RoxygenNote: 7.1.1
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: OhdsiSharing
+RemoteUsername: ohdsi
+RemoteRef: HEAD
+RemoteSha: df032336d228364387586ef7a197ea15f00d731c
+GithubRepo: OhdsiSharing
+GithubUsername: ohdsi
+GithubRef: HEAD
+GithubSHA1: df032336d228364387586ef7a197ea15f00d731c
+NeedsCompilation: no
+Packaged: 2022-02-16 07:48:38 UTC; dongyun90
+Author: Martijn Schuemie [aut],
+  Marc Suchard [aut, cre],
+  Lee Evans [aut]
+Built: R 4.1.0; ; 2022-02-16 07:48:38 UTC; unix

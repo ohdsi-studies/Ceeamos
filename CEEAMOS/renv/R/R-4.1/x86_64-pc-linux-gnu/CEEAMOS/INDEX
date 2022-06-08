@@ -1,0 +1,12 @@
+createCohorts           Create the exposure and outcome cohorts
+execute                 Execute the Study
+exportResults           Export all results to tables
+launchEvidenceExplorer
+                        Launch the SqlRender Developer Shiny app
+prepareForEvidenceExplorer
+                        Prepare results for the Evidence Explorer Shiny
+                        app.
+runCohortMethod         Run CohortMethod package
+synthesizePositiveControls
+                        Synthesize positive controls
+uploadResults           Upload results to OHDSI server

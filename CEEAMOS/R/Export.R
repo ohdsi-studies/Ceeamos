@@ -450,41 +450,6 @@ exportMainResults <- function(outputFolder,
   readr::write_csv(results, fileName)
   rm(results)  # Free up memory
   
-  ParallelLogger::logInfo("- likelihood_profile table")
-  reference <- readRDS(file.path(outputFolder, "cmOutput", "outcomeModelReference.rds"))
-  fileName <- file.path(exportFolder, "likelihood_profile.csv")
-  if (file.exists(fileName)) {
-    unlink(fileName)
-  }
-  first <- TRUE
-  pb <- txtProgressBar(style = 3)
-  for (i in 1:nrow(reference)) {
-    if (reference$outcomeModelFile[i] != "") {
-      outcomeModel <- readRDS(file.path(outputFolder, "cmOutput", reference$outcomeModelFile[i]))
-      profile <- outcomeModel$logLikelihoodProfile
-      if (!is.null(profile)) {
-        profile <- data.frame(targetId = reference$targetId[i],
-                              comparatorId = reference$comparatorId[i],
-                              outcomeId = reference$outcomeId[i],
-                              analysisId = reference$analysisId[i],
-                              logHazardRatio = as.numeric(names(profile)),
-                              logLikelihood = profile - max(profile))
-        colnames(profile) <- SqlRender::camelCaseToSnakeCase(colnames(profile))
-        write.table(x = profile,
-                    file = fileName,
-                    row.names = FALSE,
-                    col.names = first,
-                    sep = ",",
-                    dec = ".",
-                    qmethod = "double",
-                    append = !first)
-        first <- FALSE
-      }
-    }
-    setTxtProgressBar(pb, i/nrow(reference))
-  }
-  close(pb)
-  
   ParallelLogger::logInfo("- cm_interaction_result table")
   reference <- readRDS(file.path(outputFolder, "cmOutput", "outcomeModelReference.rds"))
   loadInteractionsFromOutcomeModel <- function(i) {
@@ -817,7 +782,7 @@ exportDiagnostics <- function(outputFolder,
   if (!is.null(data)) {
     colnames(data) <- SqlRender::camelCaseToSnakeCase(colnames(data))
   }
-  readr::write_csv(data, fileName)
+  write.csv(data, fileName)
   
   
   ParallelLogger::logInfo("- propensity_model table")
@@ -860,7 +825,7 @@ exportDiagnostics <- function(outputFolder,
   if (!is.null(data)) {
     colnames(data) <- SqlRender::camelCaseToSnakeCase(colnames(data))
   }
-  readr::write_csv(data, fileName)
+  write.csv(data, fileName)
   
   
   ParallelLogger::logInfo("- kaplan_meier_dist table")
