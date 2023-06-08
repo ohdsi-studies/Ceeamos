@@ -1,0 +1,3128 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 316866,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "38341003",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Hypertensive disorder",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Hypertensive disorder",
+      "id": 0
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 435783,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "58214004",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Schizophrenia",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[dylee]schizophrenia",
+      "id": 4
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 315295,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "82523003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Congestive rheumatic heart failure",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 316139,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "84114007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Heart failure",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Heart failure",
+      "id": 5
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4133495,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "278853003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Acute schizophrenia-like psychotic disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4335159,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "231442003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Organic catatonic disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 375229,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "5510009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Organic delusional disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4335168,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "231487004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Persistent delusional disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 432597,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "191567000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Schizoaffective schizophrenia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 435783,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "58214004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Schizophrenia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[dylee]exclusion of schizophrenia",
+      "id": 7
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1319998,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "149",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "acebutolol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601686,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C07AB04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "acebutolol; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1317967,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "325646",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "aliskiren",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601851,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09XA02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "aliskiren; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 991382,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "644",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "amiloride",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601539,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C03DB01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "amiloride; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1332418,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "17767",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "amlodipine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601747,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C08CA01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "amlodipine; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1314002,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1202",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "atenolol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601685,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C07AB03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "atenolol; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40235485,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1091643",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "azilsartan",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40256408,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09CA09",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "azilsartan medoxomil; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1335471,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "18867",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "benazepril",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601791,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09AA07",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "benazepril; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1322081,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1520",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "betaxolol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601687,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C07AB05",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "betaxolol; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1338005,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "19484",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "bisoprolol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601689,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C07AB07",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "bisoprolol; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 932745,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1808",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "bumetanide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601519,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C03CA02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "bumetanide; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1351557,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "214354",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "candesartan",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601829,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09CA06",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "candesartan; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1340128,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1998",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "captopril",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601785,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09AA01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "captopril; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1346823,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "20352",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "carvedilol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601700,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C07AG02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "carvedilol; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1395058,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2409",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "chlorthalidone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1398937,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2599",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "clonidine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21604385,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "N02CX02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "clonidine; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1328165,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "3443",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "diltiazem",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601771,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C08DB01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "diltiazem; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1363053,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "49276",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "doxazosin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600414,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C02CA04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "doxazosin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1341927,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "3827",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "enalapril",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601786,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09AA02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "enalapril; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1309799,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "298869",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "eplerenone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601537,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C03DA04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "eplerenone; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1346686,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "83515",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "eprosartan",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601825,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09CA02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "eprosartan; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1353776,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "4316",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "felodipine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601748,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C08CA02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "felodipine; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1363749,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "50166",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "fosinopril",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601793,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09AA09",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "fosinopril; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 956874,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "4603",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "furosemide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601518,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C03CA01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "furosemide; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1344965,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "40114",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "guanfacine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600399,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C02AC02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "guanfacine; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1373928,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "5470",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "hydralazine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600429,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C02DB02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "hydralazine; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 974166,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "5487",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "hydrochlorothiazide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601466,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C03AA03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "hydrochlorothiazide; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 978555,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "5764",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "indapamide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601499,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C03BA11",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "indapamide; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1347384,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "83818",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "irbesartan",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601827,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09CA04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "irbesartan; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1326012,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "33910",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "isradipine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601749,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C08CA03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "isradipine; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1386957,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6185",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "labetalol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601699,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C07AG01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "labetalol; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1308216,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "29046",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "lisinopril",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601787,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09AA03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "lisinopril; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1367500,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "52175",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "losartan",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601824,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09CA01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "losartan; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600394,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C02AB",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "Methyldopa",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1305447,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6876",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "methyldopa",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 907013,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6916",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "metolazone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601496,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C03BA08",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metolazone; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1307046,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6918",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "metoprolol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601684,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C07AB02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "metoprolol; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1309068,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6984",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "minoxidil",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600433,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C02DC01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "minoxidil; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1310756,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "30131",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "moexipril",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601797,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09AA13",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "moexipril; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1313200,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "7226",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "nadolol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601673,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C07AA12",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "nadolol; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1314577,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "31555",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "nebivolol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601694,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C07AB12",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "nebivolol; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1318137,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "7396",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "nicardipine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601750,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C08CA04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "nicardipine; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1318853,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "7417",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "nifedipine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601751,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C08CA05",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "nifedipine; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1319880,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "7435",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "nisoldipine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601753,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C08CA07",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "nisoldipine; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40226742,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "321064",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "olmesartan",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601831,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09CA08",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "olmesartan medoxomil; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1327978,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "7973",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "penbutolol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601679,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C07AA23",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "penbutolol; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1373225,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "54552",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "perindopril",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601788,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09AA04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "perindopril; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1345858,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "8332",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pindolol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601669,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C07AA03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "pindolol; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1350489,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "8629",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "prazosin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600411,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C02CA01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "prazosin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1353766,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "8787",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "propranolol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601670,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C07AA05",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "propranolol; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1331235,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "35208",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "quinapril",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601790,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09AA06",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "quinapril; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1334456,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "35296",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ramipril",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601789,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09AA05",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ramipril; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 970250,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "9997",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "spironolactone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601534,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C03DA01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "spironolactone; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1317640,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "73494",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "telmisartan",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601830,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09CA07",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "telmisartan; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1341238,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "37798",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "terazosin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602670,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "G04CA03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "terazosin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 942350,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "38413",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "torsemide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1342439,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "38454",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "trandolapril",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601794,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09AA10",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "trandolapril; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 904542,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "10763",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "triamterene",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601540,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C03DB02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "triamterene; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1308842,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "69749",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "valsartan",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601826,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09CA03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "valsartan; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1307863,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "11170",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "verapamil",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601767,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C08DA01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "verapamil; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Hypertension drugs",
+      "id": 10
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601815,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09BB",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ACE inhibitors and calcium channel blockers",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601802,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09BA",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ACE inhibitors and diuretics",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601801,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09B",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ACE INHIBITORS, COMBINATIONS",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 3rd",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43534771,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09BX",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ACE inhibitors, other combinations",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601783,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09A",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ACE INHIBITORS, PLAIN",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 3rd",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601784,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09AA",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ACE inhibitors, plain",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 600000001,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "600000001",
+            "VOCABULARY_ID": "Cohort",
+            "CONCEPT_NAME": "OMOP ACE Inhibitor",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "Cohort",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[dylee]ACEi",
+      "id": 11
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601475,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C03AB01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "bendroflumethiazide and potassium; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601478,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C03AB04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "chlorothiazide and potassium; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601481,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C03AB07",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cyclopenthiazide and potassium; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601483,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C03AB09",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cyclothiazide and potassium; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 974166,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "5487",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "hydrochlorothiazide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601477,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C03AB03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "hydrochlorothiazide and potassium; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601488,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C03AX01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "hydrochlorothiazide, combinations",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601476,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C03AB02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "hydroflumethiazide and potassium; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601482,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C03AB08",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "methyclothiazide and potassium; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601479,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C03AB05",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "polythiazide and potassium; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601474,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C03AB",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "Thiazides and potassium in combination",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601487,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C03AX",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "Thiazides, combinations with other drugs",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601480,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C03AB06",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "trichlormethiazide and potassium; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601822,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09C",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), PLAIN",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 3rd",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601823,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09CA",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "Angiotensin II receptor blockers (ARBs), plain",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601845,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09DX",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "Angiotensin II receptor blockers (ARBs), other combinations",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601832,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09D",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 3rd",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601833,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09DA",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "Angiotensin II receptor blockers (ARBs) and diuretics",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601841,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09DB",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "Angiotensin II receptor blockers (ARBs) and calcium channel blockers",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[dylee]arbs and tzd",
+      "id": 12
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 600000006,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "600000006",
+            "VOCABULARY_ID": "Cohort",
+            "CONCEPT_NAME": "OMOP Beta blockers",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "Cohort",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601815,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09BB",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ACE inhibitors and calcium channel blockers",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601841,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09DB",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "Angiotensin II receptor blockers (ARBs) and calcium channel blockers",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601741,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C07FB",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "Beta blocking agents and calcium channel blockers",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601744,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C08",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "CALCIUM CHANNEL BLOCKERS",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 2nd",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601779,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C08G",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "CALCIUM CHANNEL BLOCKERS AND DIURETICS",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 3rd",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601780,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C08GA",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "Calcium channel blockers and diuretics",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601765,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C08D",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "SELECTIVE CALCIUM CHANNEL BLOCKERS WITH DIRECT CARDIAC EFFECTS",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 3rd",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601745,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C08C",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "SELECTIVE CALCIUM CHANNEL BLOCKERS WITH MAINLY VASCULAR EFFECTS",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 3rd",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[dylee]bb and ccb",
+      "id": 13
+    }
+  ],
+  "EndStrategy": {"CustomEra": {
+    "DrugCodesetId": 11,
+    "DaysSupplyOverride": null,
+    "GapDays": 30,
+    "Offset": 0
+  }},
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [{"DrugExposure": {
+    "OccurrenceEndDate": null,
+    "CorrelatedCriteria": null,
+    "DrugSourceConcept": null,
+    "CodesetId": 12,
+    "DrugTypeExclude": false,
+    "Quantity": null,
+    "DrugType": null,
+    "ProviderSpecialty": null,
+    "EffectiveDrugDose": null,
+    "Gender": null,
+    "DaysSupply": null,
+    "DoseUnit": null,
+    "VisitType": null,
+    "Refills": null,
+    "First": null,
+    "OccurrenceStartDate": null,
+    "RouteConcept": null,
+    "StopReason": null,
+    "LotNumber": null,
+    "Age": null
+  }}],
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 365,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 0,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "ConditionStatus": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "has hypertension diagnosis in 1 yr prior to treatment",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 1,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"DrugExposure": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "DrugSourceConcept": null,
+            "CodesetId": 10,
+            "DrugTypeExclude": false,
+            "Quantity": null,
+            "DrugType": null,
+            "ProviderSpecialty": null,
+            "EffectiveDrugDose": null,
+            "Gender": null,
+            "DaysSupply": null,
+            "DoseUnit": null,
+            "VisitType": null,
+            "Refills": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "RouteConcept": null,
+            "StopReason": null,
+            "LotNumber": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "Has no prior antihypertensive drug exposures in medical history",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 0,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 7,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"DrugEra": {
+            "EraStartDate": null,
+            "CorrelatedCriteria": null,
+            "OccurrenceCount": null,
+            "AgeAtStart": null,
+            "GapDays": null,
+            "CodesetId": 10,
+            "AgeAtEnd": null,
+            "First": null,
+            "Gender": null,
+            "EraLength": null,
+            "EraEndDate": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "CountColumn": "DOMAIN_CONCEPT",
+            "IsDistinct": true,
+            "Count": 1
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "Is only taking ACE as monotherapy, with no concomitant combination treatments",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 1,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 7,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "ConditionStatus": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "Has no prior schizophrenia diagnosis",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 1,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 5,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "ConditionStatus": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "Has no prior heart failure diagnosis",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"DrugExposure": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "DrugSourceConcept": null,
+            "CodesetId": 13,
+            "DrugTypeExclude": false,
+            "Quantity": null,
+            "DrugType": null,
+            "ProviderSpecialty": null,
+            "EffectiveDrugDose": null,
+            "Gender": null,
+            "DaysSupply": null,
+            "DoseUnit": null,
+            "VisitType": null,
+            "Refills": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "RouteConcept": null,
+            "StopReason": null,
+            "LotNumber": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "Has no prior beta-blocker or CCB in medical history",
+      "description": null
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"DrugExposure": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "DrugSourceConcept": null,
+      "CodesetId": 11,
+      "DrugTypeExclude": false,
+      "Quantity": null,
+      "DrugType": null,
+      "ProviderSpecialty": null,
+      "EffectiveDrugDose": null,
+      "Gender": null,
+      "DaysSupply": null,
+      "DoseUnit": null,
+      "VisitType": null,
+      "Refills": null,
+      "First": true,
+      "OccurrenceStartDate": null,
+      "RouteConcept": null,
+      "StopReason": null,
+      "LotNumber": null,
+      "Age": {
+        "Op": "gt",
+        "Extent": 45,
+        "Value": 45
+      }
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 365
+    }
+  }
+}

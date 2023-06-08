@@ -1,9 +1,9 @@
 atlasId,atlasName,cohortId,name
-2216,ACE inhibitors,2216,ACE_inhibitors
-2217,ARBs,2217,ARBs
-1820,Schizophrenia,1820,Schizophrenia
-1897,Schizophrenia with ER visit,1897,Schizophrenia_with_ER_visit
-2218,Thiazide,2218,Thiazide
-1841,ACE inhibitors in Older Adults,1841,ACE_inhibitors_in_Older_Adults
-2036,ARBs in Older Adults,2036,ARBs_in_Older_Adults
-2035,Thiazide in Older Adults,2035,Thiazide_in_Older_Adults
+3277,[dylee] ACEi_230607,3277,dylee_ACEi_230607
+3281,[dylee] tzd_230607,3281,dylee_tzd_230607
+1834,Schizophrenia,1834,Schizophrenia
+1835,Schizophrenia with ER visit,1835,Schizophrenia_with_ER_visit
+3280,[dylee] arbs_230607,3280,dylee_arbs_230607
+3282,[dylee] ACEi_older_230607,3282,dylee_ACEi_older_230607
+3283,[dylee] arbs_older_230607,3283,dylee_arbs_older_230607
+3284,[dylee] tzd_older_230607,3284,dylee_tzd_older_230607

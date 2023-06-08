@@ -10,13 +10,15 @@ INSERT INTO #Codesets (ancestor_concept_id, concept_id)
  WHERE ancestor_concept_id IN (@outcome_ids)
 ;
 
+{DEFAULT @cohort_id_field_name = 'cohort_definition_id'}
+
 INSERT INTO @target_database_schema.@target_cohort_table (
 	subject_id,
-	cohort_definition_id,
+	@cohort_id_field_name,
 	cohort_start_date,
 	cohort_end_date
 )
-SELECT 
+SELECT
 	s.subject_id,
 	s.cohort_definition_id,
 	s.cohort_start_date,
